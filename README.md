@@ -1,7 +1,6 @@
 # NLP Assignments Suite - Semester Report
 
-📊 Executive Summary
-A comprehensive collection of assignments covering the full spectrum of Large Language Models (LLMs), Natural Language Processing (NLP), and multimodal AI applications. This repository demonstrates practical implementations ranging from fundamental NLP preprocessing to advanced multi-agent systems and fine-tuning techniques.
+A comprehensive collection of 10 assignments covering the full spectrum of Large Language Models (LLMs), Natural Language Processing (NLP), and multimodal AI applications. This repository demonstrates practical implementations ranging from fundamental NLP preprocessing to advanced multi-agent systems and fine-tuning techniques, organized in progressive learning order.
 
 ## 📚 Table of Contents
 
@@ -16,8 +15,24 @@ A comprehensive collection of assignments covering the full spectrum of Large La
 
 ## 🎯 Overview
 
-This repository contains 10 comprehensive assignments that explore various aspects of modern AI and NLP:
+This repository contains 10 comprehensive assignments that explore various aspects of modern AI and NLP, organized in progressive learning order:
 
+### 📊 **Assignment Structure Overview**
+```
+📁 LLM-ALL-Assignments/
+├── 📂 Assignment-1.1-NLP-Preprocessing/           # Fundamental NLP techniques
+├── 📂 Assignment-1.2-Word-Embeddings/             # Vector representations
+├── 📂 Assignment-1.3-Seq2Seq-Summarization/       # Sequence modeling
+├── 📂 Assignment-2.1-Transformer-Finetuning/      # Transformer fine-tuning
+├── 📂 Assignment-3.1-RAG-System/                  # Retrieval-Augmented Generation
+├── 📂 Assignment-3.2-Agent-and-Multi-Agent-Systems/ # Multi-agent coordination
+├── 📂 Assignment-3.3-Fine-Tuning-and-Parameter-Efficient-Methods/ # Parameter efficiency
+├── 📂 Assignment-4.0-Prompt-Tuning/               # Prompt engineering
+├── 📂 Assignment-5.1-Model-Comparison-Report/     # Comparative analysis
+└── 📂 Assignment-5.2-Multimodal-Application-Demo/ # Vision-language applications
+```
+
+### 🎓 **Learning Progression**
 - **Foundational NLP**: Text preprocessing, word embeddings, and sequence-to-sequence models
 - **Transformer Technologies**: Fine-tuning, parameter-efficient methods, and attention mechanisms
 - **Advanced Systems**: RAG systems, multi-agent architectures, and prompt engineering
@@ -33,17 +48,20 @@ This repository contains 10 comprehensive assignments that explore various aspec
 - **Features**: Tokenization, lemmatization, stemming, POS tagging, NER
 - **Interface**: Web-based demo with RESTful API
 - **Key Files**: `app.py`, `templates/index.html`
+- **Location**: `Assignment-1.1-NLP-Preprocessing/`
 
 #### Assignment 1.2: Word Embeddings
 - **Tech Stack**: Python, Machine Learning libraries
 - **Focus**: Word embedding techniques and vector representations
 - **Key Files**: `app.py`, `templates/embeddings.html`
+- **Location**: `Assignment-1.2-Word-Embeddings/`
 
 #### Assignment 1.3: Seq2Seq Summarization
 - **Tech Stack**: TensorFlow, Keras, LSTM, Attention Mechanism
 - **Features**: Bidirectional LSTM encoder-decoder with attention
 - **Capabilities**: Text summarization with BLEU/ROUGE evaluation
 - **Key Files**: `app.py`, `seq2seq_summarization_model.keras`
+- **Location**: `Assignment-1.3-Seq2Seq-Summarization/`
 
 ### 🔄 **Transformer Architecture & Fine-tuning**
 
@@ -53,6 +71,7 @@ This repository contains 10 comprehensive assignments that explore various aspec
 - **Architecture**: DistilBERT with custom classification head
 - **Features**: Comprehensive evaluation, visualization, performance analysis
 - **Key Files**: `transformer-finetuning.ipynb`
+- **Location**: `Assignment-2.1-Transformer-Finetuning/`
 
 ### 🤖 **Advanced AI Systems**
 
@@ -63,12 +82,14 @@ This repository contains 10 comprehensive assignments that explore various aspec
 - **Features**: Website content extraction, intelligent Q&A, crawl statistics
 - **Deployment**: Vercel (frontend), AWS EC2 (backend)
 - **Key Files**: `backend/src/index.js`, `frontend/src/scripts.js`
+- **Location**: `Assignment-3.1-RAG-System/`
 
 #### Assignment 3.2: Multi-Agent Systems
 - **Tech Stack**: Python, Threading, Queue-based messaging
 - **Architecture**: 5 specialized agents (Planner, Researcher, Summarizer, Answerer, Coordinator)
 - **Features**: Asynchronous processing, thread-safe operations, dynamic task planning
 - **Key Files**: `agent-and-multi-agent-systems.ipynb`
+- **Location**: `Assignment-3.2-Agent-and-Multi-Agent-Systems/`
 
 #### Assignment 3.3: Parameter-Efficient Fine-tuning
 - **Tech Stack**: PyTorch, Transformers, LoRA, Adapters
@@ -76,15 +97,17 @@ This repository contains 10 comprehensive assignments that explore various aspec
 - **Analysis**: Parameter efficiency, training speed, accuracy comparison
 - **Visualization**: Comprehensive performance charts and metrics
 - **Key Files**: `fine-tuning-parameter-efficient-methods-experiment.ipynb`
+- **Location**: `Assignment-3.3-Fine-Tuning-and-Parameter-Efficient-Methods/`
 
 ### 💡 **Prompt Engineering & LLM Applications**
 
-#### Assignment 4: Prompt Tuning
+#### Assignment 4.0: Prompt Tuning
 - **Tech Stack**: Google Gemini API, Python
 - **Techniques**: Direct prompts, few-shot learning, chain-of-thought
 - **Applications**: Content generation, sentiment analysis
 - **Ethics**: Bias, fairness, and privacy considerations
 - **Key Files**: `Assignment_4_LLMs.ipynb`
+- **Location**: `Assignment-4.0-Prompt-Tuning/`
 
 ### 🎨 **Multimodal AI & Model Comparison**
 
@@ -93,6 +116,7 @@ This repository contains 10 comprehensive assignments that explore various aspec
 - **Coverage**: Architecture, applications, cross-modal handling
 - **Analysis**: Strengths, weaknesses, use-case recommendations
 - **Key Files**: `llm_5.1.pdf`
+- **Location**: `Assignment-5.1-Model-Comparison-Report/`
 
 #### Assignment 5.2: Multimodal Application Demo
 - **Tech Stack**: BLIP, Transformers, Gradio, PIL
@@ -100,6 +124,7 @@ This repository contains 10 comprehensive assignments that explore various aspec
 - **Model**: Salesforce BLIP (Vision Transformer + Decoder)
 - **Interface**: Interactive Gradio web interface
 - **Key Files**: `Image_Caption_Generator_Using_BLIP.ipynb`
+- **Location**: `Assignment-5.2-Multimodal-Application-Demo/`
 
 ## 🛠️ Technologies Used
 
@@ -158,7 +183,7 @@ This repository contains 10 comprehensive assignments that explore various aspec
 
 3. **Node.js Dependencies** (for RAG system)
    ```bash
-   cd "Assignment 3.1 RAG System/backend"
+   cd "Assignment-3.1-RAG-System/backend"
    npm install
    cd "../frontend"
    npm install
@@ -180,21 +205,21 @@ GEMINI_API_KEY=your_gemini_api_key
 
 1. **NLP Preprocessing (1.1)**
    ```bash
-   cd "Assignment1.1 NLP-Preprocessing"
+   cd "Assignment-1.1-NLP-Preprocessing"
    pip install -r requirements.txt
    python app.py
    ```
 
 2. **Transformer Fine-tuning (2.1)**
    ```bash
-   cd "Assignment-2.1 Transformer-Finetuning"
+   cd "Assignment-2.1-Transformer-Finetuning"
    jupyter notebook transformer-finetuning.ipynb
    ```
 
 3. **RAG System (3.1)**
    ```bash
    # Backend
-   cd "Assignment 3.1 RAG System/backend"
+   cd "Assignment-3.1-RAG-System/backend"
    npm start
    
    # Frontend (new terminal)
@@ -204,20 +229,20 @@ GEMINI_API_KEY=your_gemini_api_key
 
 4. **Multi-Agent Systems (3.2)**
    ```bash
-   cd "Assignment 3.2 Agent-and-Multi-Agent-Systems"
+   cd "Assignment-3.2-Agent-and-Multi-Agent-Systems"
    jupyter notebook agent-and-multi-agent-systems.ipynb
    ```
 
 5. **Parameter-Efficient Fine-tuning (3.3)**
    ```bash
-   cd "Assignment 3.3 Fine-Tuning and Parameter-Efficient Methods"
+   cd "Assignment-3.3-Fine-Tuning-and-Parameter-Efficient-Methods"
    pip install -r requirements.txt
    jupyter notebook fine-tuning-parameter-efficient-methods-experiment.ipynb
    ```
 
 6. **Image Caption Generator (5.2)**
    ```bash
-   cd "Assignment 5.2 Multimodal Application Demo"
+   cd "Assignment-5.2-Multimodal-Application-Demo"
    pip install -r requirements.txt
    jupyter notebook Image_Caption_Generator_Using_BLIP.ipynb
    ```
