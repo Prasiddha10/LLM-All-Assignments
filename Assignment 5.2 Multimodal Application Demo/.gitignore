@@ -1,0 +1,30 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and output files
+*.log
+*.tmp
+
+# Ignore images if not needed in repo (uncomment if desired)
+# *.jpeg
+# *.jpg
+# *.png
